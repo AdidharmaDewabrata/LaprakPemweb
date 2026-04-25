@@ -1,0 +1,99 @@
+body{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h-1{
+    margin-top: 50px;
+    height: 10vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.title{
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title #t-1{margin-left:20px;}
+
+.title #c-btn{
+    margin-right:20px; 
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;  
+}
+
+.table{
+    background-color: white;
+    border: 1px solid black;
+    height: 50vh;
+    width: 90%;
+    display:flex;
+    justify-content: start;
+}
+
+table{height: 15%; width: 100%;}
+
+tr, th, td{border: 1px solid black;}
+
+#d-id, #d-usn, #d-email, #d-phone, #edit, #delete, #d-pwd{text-align: center;}
+
+.e-btn{background-color: blue; color: white; font-weight: bold;}
+.d-btn{background-color: red; color: white; font-weight: bold;}
+
+.h-e-1{
+    margin-top: 50px;
+    background-color: lightsalmon;
+    color: white;
+    font-weight: bold;
+    height: 10vh;
+    width: 90%;
+    border: 1px solid black;
+}
+
+.h-e-1 #h-e{margin-left: 10px;}
+
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    width: 90%;
+    height: 300px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+label{
+    margin-left: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input{background-color: white; width: 800px; height: 30px; margin-right: 10px;}
+
+.lbl{width: 1325px; height: 30px; display: flex; align-items: center; justify-content: space-between;}
+.submit{margin-left: 10px; width: 120px; height: 40px; background-color: blue; color: white; font-weight: bold;}
+.cancel-btn{
+    margin-left: 1100px; width: 120px; 
+    height: 40px; background-color: red; 
+    display: flex; align-items: center;
+    justify-content: center;
+}
+
+a{color: white; font-weight: bold; text-decoration: none;}
+.buttons{display: flex; flex-direction: row; width: 1285px; margin-left:30px;}
